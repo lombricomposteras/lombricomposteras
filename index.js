@@ -22,7 +22,7 @@ var request = require('request');
 
 // Variables para identificar la plataforma
 var id_plataforma = "j43wavn"; 
-var ruta_alerta = "https://lombricomposteras.herokuapp.com/enviar-alerta";
+var ruta_alerta = "https://lombricomposteras.onrender.com/enviar-alerta";
 var suscripcion_topic_escribir = id_plataforma + "/server_iot/escribir";
 var suscripcion_topic_actualizar = id_plataforma + "/server_iot/actualizar";
 var suscripcion_topic_leer = id_plataforma + "/server_iot/leer";
